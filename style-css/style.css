@@ -213,6 +213,9 @@ h1{
   .custom-button:hover {
     text-shadow: 2px 2px 2px #00025a; /* hover:[text-shadow:2px_2px_2px_#fda4af] */
   }
+  #close-button{
+    display: none;
+}
   @media (max-width: 600px) {
     body{
         background: none;
@@ -317,17 +320,25 @@ h1{
         flex-direction: column;
         gap: 10px;
         position: absolute;
-        top: 60px; /* Ajusta según el tamaño de tu header */
+        top: 0px; /* Ajusta según el tamaño de tu header */
         background-color: white;
         width: 100%;
         left: 0;
         box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
-
     .links-header-container.show {
         display: flex;
     }
-
+    #close-button {
+        align-self: flex-end;
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 20px;
+        padding: 10px;
+        display: block;
+    }
+    
     #menu-icon {
         cursor: pointer;
     }
@@ -336,5 +347,6 @@ h1{
     }
 
 }
+
 
 
