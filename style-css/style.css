@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
 html{
     scroll-behavior: smooth;
+    background: linear-gradient(to bottom right, #5974FF 5%, transparent 20%)no-repeat;
 }
 body {
     font-family: 'Inter', sans-serif;
     color: #15163D;
-    background: linear-gradient(to bottom right, #5974FF 25%, transparent 50%)no-repeat;
+    
     background-size: 50% 100%;
     background-position: left center;
 }
@@ -388,6 +389,5 @@ a:hover::after {
     }
 
 }
-
 
 
